@@ -1,0 +1,2 @@
+const e=document.querySelector(".guess-the-number__input"),t=document.querySelector(".guess-the-number__button"),o=(document.querySelector(".guess-the-number__svg"),document.querySelector(".guess-the-number__text")),u=Math.floor(100*Math.random())+1,n=e.value;t.addEventListener("click",(e=>{n===u?(o.textContent=`Вітаю, ви вгадали число! ${u}`,o.style.color="#039900"):(o.textContent=`Ви програли, комп’ютер загадав ${u}`,o.style.color="#990000")}));
+//# sourceMappingURL=index.8156995f.js.map

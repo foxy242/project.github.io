@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".guess-the-number__input"),t=document.querySelector(".guess-the-number__button"),n=(document.querySelector(".guess-the-number__svg"),document.querySelector(".guess-the-number__text")),o=Math.floor(100*Math.random())+1,u=e.value;t.addEventListener("click",(function(e){u===o?(n.textContent="Вітаю, ви вгадали число! ".concat(o),n.style.color="#039900"):(n.textContent="Ви програли, комп’ютер загадав ".concat(o),n.style.color="#990000")}))}();
+//# sourceMappingURL=index.a08aa747.js.map

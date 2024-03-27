@@ -1,0 +1,2 @@
+!function(){var t=document.getElementById("one_input"),e=document.getElementById("two_input"),n=document.getElementById("three_input"),a=document.getElementById("time_result");function i(){var i=parseFloat(t.value),u=parseFloat(e.value),d=parseFloat(n.value);if(isNaN(i)&&isNaN(u)&&isNaN(d))a.textContent="не вказано";else{var o=Math.max(i,u,d);a.textContent="Найбільше число яке ви ввели - ".concat(o," ")}}t.addEventListener("input",i),e.addEventListener("input",i),n.addEventListener("input",i)}();
+//# sourceMappingURL=index.f592a4ab.js.map
