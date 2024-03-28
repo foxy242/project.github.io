@@ -1,4 +1,4 @@
-  document.getElementById("sort-select").addEventListener("change", function() {
+document.getElementById("sort-select") .addEventListener("change", function () {
     let selectedOption = this.value;
     let ourTeamSection = document.getElementById("our-team")
     let pickScientistSection = document.getElementById("info__section")
@@ -34,7 +34,6 @@
             cheackBornAgeSection.classList.remove("display-none")
             ourTeamSection.classList.add("display-none")
             pickScientistSection.classList.add("display-none")
-            break;
         case "games":
             dinoGameSection.classList.remove("display-none");
             soccerGameSection.classList.remove("display-none");
@@ -77,10 +76,8 @@ let highestNumberSection = document.getElementById("highest-number__section")
 let ourTeam = document.getElementById("our-team")
 let infoSection = document.getElementById("info__section")
 let footer = document.querySelector(".footer")
-
 document.querySelector('.switch').addEventListener('click', function() {
     this.classList.toggle('night');
-
     if (this.classList.contains('night')) {
         header.style.backgroundColor = '#333';
         leapYearSection.style.backgroundColor = '#333';
@@ -107,5 +104,6 @@ document.querySelector('.switch').addEventListener('click', function() {
         ourTeam.style.backgroundColor = '#fff';
         infoSection.style.backgroundColor = '#fff';
         footer.style.backgroundColor = '#fff';
+
     }
 });
