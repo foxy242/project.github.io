@@ -3,14 +3,15 @@
     <div class="header_components">
       <div class="header_component">
         <svg class="header_logo">
-          <!-- <use href="./images/header/header_logo.svg#logo"></use> -->
+          <use href="./images/header/header_logo.svg#logo"></use>
         </svg>
       </div>
-      <div class="header_component">
-        <ul class="header_list">
-          <li class="header_item">
-            <select id="conductor">
+      <div class="header__component">
+        <ul class="header__list">
+          <li class="header__item">
+            <select id="sort-select">
               <option value="interactive">Інтерактив</option>
+              <option value="number">Числовий</option>
               <option value="games">Ігровий</option>
               <option value="means">Ознайомчий</option>
             </select>
@@ -23,16 +24,16 @@
           </li>
         </ul>
       </div>
-      <div class="header_switch">
-        <div class="header_component_switch">
-          <div class="header_component_switch_item">
-            <div class="header_switch_container">
-              <div class="switch_light"></div>
+      <div class="header__component header__component-switch">
+        <div class="header__component-switch-item">
+          <div class="switch-container">
+            <div class="switch">
+              <div class="ball"></div>
             </div>
           </div>
         </div>
-        <div class="header_component_User">
-          <p class="header_User">Вітаємо, User!</p>
+        <div class="header__component-switch-item">
+          <p class="header__description">Вітаємо, User!</p>
         </div>
       </div>
     </div>
