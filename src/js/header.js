@@ -1,62 +1,62 @@
-document.getElementById("sort-select") .addEventListener("change", function () {
+document.getElementById("sort_select") .addEventListener("change", function () {
     let selectedOption = this.value;
-    let ourTeamSection = document.getElementById("our-team")
-    let pickScientistSection = document.getElementById("info__section")
-    let cheackBornAgeSection = document.getElementById("leap-year__section")
-    let calculatorOfTimeSection = document.getElementById("time-calculator__section")
-    let calculatorSection = document.getElementById("calculator__section")
-    let guessTheNumberSection = document.getElementById("guess-the-number-section")
-    let threeNumbersSection = document.getElementById("highest-number__section")
-    let dinoGameSection = document.getElementById("dino-game");
+    let ourTeamSection = document.getElementById("our_team")
+    let pickScientistSection = document.getElementById("info_section")
+    let cheackBornAgeSection = document.getElementById("leap_year_section")
+    let calculatorOfTimeSection = document.getElementById("time_calculator_section")
+    let calculatorSection = document.getElementById("calculator_section")
+    let guessTheNumberSection = document.getElementById("guess_the_number_section")
+    let threeNumbersSection = document.getElementById("highest_number_section")
+    let dinoGameSection = document.getElementById("dino_game");
     let soccerGameSection = document.getElementById("soccer")
-    let paperRockGameSection = document.getElementById("prs__section")
+    let paperRockGameSection = document.getElementById("prs_section")
     switch(selectedOption) {
         case "interactive":
-            dinoGameSection.classList.remove("display-none");
-            soccerGameSection.classList.remove("display-none");
-            paperRockGameSection.classList.remove("display-none")
-            calculatorOfTimeSection.classList.remove("display-none")
-            calculatorSection.classList.remove("display-none")
-            guessTheNumberSection.classList.remove("display-none")
-            threeNumbersSection.classList.remove("display-none")
-            cheackBornAgeSection.classList.remove("display-none")
-            ourTeamSection.classList.remove("display-none")
-            pickScientistSection.classList.remove("display-none")
+            dinoGameSection.classList.remove("display_none");
+            soccerGameSection.classList.remove("display_none");
+            paperRockGameSection.classList.remove("display_none")
+            calculatorOfTimeSection.classList.remove("display_none")
+            calculatorSection.classList.remove("display_none")
+            guessTheNumberSection.classList.remove("display_none")
+            threeNumbersSection.classList.remove("display_none")
+            cheackBornAgeSection.classList.remove("display_none")
+            ourTeamSection.classList.remove("display_none")
+            pickScientistSection.classList.remove("display_none")
             break;
         case "number":
-            soccerGameSection.classList.add("display-none");
-            dinoGameSection.classList.add("display-none");
-            paperRockGameSection.classList.add("display-none")
-            calculatorOfTimeSection.classList.remove("display-none")
-            calculatorSection.classList.remove("display-none")
-            guessTheNumberSection.classList.remove("display-none")
-            threeNumbersSection.classList.remove("display-none")
-            cheackBornAgeSection.classList.remove("display-none")
-            ourTeamSection.classList.add("display-none")
-            pickScientistSection.classList.add("display-none")
+            soccerGameSection.classList.add("display_none");
+            dinoGameSection.classList.add("display_none");
+            paperRockGameSection.classList.add("display_none")
+            calculatorOfTimeSection.classList.remove("display_none")
+            calculatorSection.classList.remove("display_none")
+            guessTheNumberSection.classList.remove("display_none")
+            threeNumbersSection.classList.remove("display_none")
+            cheackBornAgeSection.classList.remove("display_none")
+            ourTeamSection.classList.add("display_none")
+            pickScientistSection.classList.add("display_none")
         case "games":
-            dinoGameSection.classList.remove("display-none");
-            soccerGameSection.classList.remove("display-none");
-            paperRockGameSection.classList.remove("display-none")
-            calculatorOfTimeSection.classList.add("display-none")
-            calculatorSection.classList.add("display-none")
-            guessTheNumberSection.classList.add("display-none")
-            threeNumbersSection.classList.add("display-none")
-            cheackBornAgeSection.classList.add("display-none")
-            ourTeamSection.classList.add("display-none")
-            pickScientistSection.classList.add("display-none")
+            dinoGameSection.classList.remove("display_none");
+            soccerGameSection.classList.remove("display_none");
+            paperRockGameSection.classList.remove("display_none")
+            calculatorOfTimeSection.classList.add("display_none")
+            calculatorSection.classList.add("display_none")
+            guessTheNumberSection.classList.add("display_none")
+            threeNumbersSection.classList.add("display_none")
+            cheackBornAgeSection.classList.add("display_none")
+            ourTeamSection.classList.add("display_none")
+            pickScientistSection.classList.add("display_none")
             break;
         case "means":
-            dinoGameSection.classList.add("display-none");
-            soccerGameSection.classList.add("display-none");
-            paperRockGameSection.classList.add("display-none");
-            calculatorOfTimeSection.classList.add("display-none")
-            calculatorSection.classList.add("display-none")
-            guessTheNumberSection.classList.add("display-none")
-            threeNumbersSection.classList.add("display-none")
-            cheackBornAgeSection.classList.add("display-none")
-            ourTeamSection.classList.remove("display-none")
-            pickScientistSection.classList.remove("display-none")
+            dinoGameSection.classList.add("display_none");
+            soccerGameSection.classList.add("display_none");
+            paperRockGameSection.classList.add("display_none");
+            calculatorOfTimeSection.classList.add("display_none")
+            calculatorSection.classList.add("display_none")
+            guessTheNumberSection.classList.add("display_none")
+            threeNumbersSection.classList.add("display_none")
+            cheackBornAgeSection.classList.add("display_none")
+            ourTeamSection.classList.remove("display_none")
+            pickScientistSection.classList.remove("display_none")
             break;
         default:
             break;
@@ -64,17 +64,17 @@ document.getElementById("sort-select") .addEventListener("change", function () {
 });
 
 let header = document.getElementById('header');
-let headerLogo = document.querySelector(".header__logo")
-let leapYearSection = document.getElementById("leap-year__section")
-let guessTheNumberSection = document.getElementById("guess-the-number-section")
-let prsSection = document.getElementById("prs__section")
-let calculatorSection = document.getElementById("calculator__section")
-let timeCalculatorSection = document.getElementById("time-calculator__section")
-let dinoGame = document.getElementById("dino-game")
+let headerLogo = document.querySelector(".header_logo")
+let leapYearSection = document.getElementById("leap_year_section")
+let guessTheNumberSection = document.getElementById("guess_the_number_section")
+let prsSection = document.getElementById("prs_section")
+let calculatorSection = document.getElementById("calculator_section")
+let timeCalculatorSection = document.getElementById("time_calculator_section")
+let dinoGame = document.getElementById("dino_game")
 let soccer = document.getElementById("soccer")
-let highestNumberSection = document.getElementById("highest-number__section")
-let ourTeam = document.getElementById("our-team")
-let infoSection = document.getElementById("info__section")
+let highestNumberSection = document.getElementById("highest_number_section")
+let ourTeam = document.getElementById("our_team")
+let infoSection = document.getElementById("info_section")
 let footer = document.querySelector(".footer")
 document.querySelector('.switch').addEventListener('click', function() {
     this.classList.toggle('night');

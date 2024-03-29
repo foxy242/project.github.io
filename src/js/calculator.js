@@ -1,7 +1,7 @@
 document.getElementById('equals').addEventListener('click', function() {
-    let firstNumber = parseFloat(document.getElementById('first-input').value);
-    let secondNumber = parseFloat(document.getElementById('second-input').value);
-    let operation = document.querySelector('.button__list .active').textContent.trim();
+    let firstNumber = parseFloat(document.getElementById('first_input').value);
+    let secondNumber = parseFloat(document.getElementById('second_input').value);
+    let operation = document.querySelector('.button_list .active').textContent.trim();
     let result;
 
     switch(operation) {
@@ -24,7 +24,7 @@ document.getElementById('equals').addEventListener('click', function() {
     document.getElementById('result-p').textContent = result;
 });
 
-let buttons = document.querySelectorAll('.button__calculator');
+let buttons = document.querySelectorAll('.button_calculator');
 buttons.forEach(function(button) {
     button.addEventListener('click', function() {
         buttons.forEach(function(btn) {

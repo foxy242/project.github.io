@@ -6,7 +6,7 @@ function calculateTime() {
     let minutes = Math.floor((inputValue % 3600) / 60);
     let seconds = inputValue % 60;
     let timeOutput = document.querySelector('.time_calc_time');
-    timeOutput.textContent = ` ${days}дн   ${hours}:${minutes}:${seconds}`;
+    timeOutput.textContent = ` ${days}:${hours}:${minutes}:${seconds}`;
 }
 
 document.querySelector('.time_button_calculator').addEventListener('click', calculateTime);
